@@ -3,14 +3,25 @@
 
 /* HEADER */
 
-/*.main__menu {
-  position: relative;
-  overflow: hidden;
-  background: linear-gradient(to top #303030 #373737);
-}*/
+.photo__box {
+    width: 1000px;
+    height: 237px;
+    border-top: 1px solid #128aa7;
+    border-bottom: 1px solid #128aa7;
+    position: relative;
+    overflow: hidden;
+}
+
+.photo {
+    /*top: 0;
+    left: 0;*/
+    position: absolute;
+    transform: translate(-150px, -213px);
+}
 
 
 ul {
+  padding: 0 0 0 58px;
   font-family: Tahoma;
   font-size: 14px;
   background-color: #373737;
