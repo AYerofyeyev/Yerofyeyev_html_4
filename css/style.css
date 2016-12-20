@@ -4,18 +4,18 @@
 /* HEADER */
 
 header {
-      height: 415px;
-      width: 1000px;
-      position: relative;
-      overflow: hidden;
+    position: relative;
+    width: 1000px;
+    height: 415px;
+    overflow: hidden;
 }
 
-.photo__box {
+.photo__container {
+    position: relative;
     width: 1000px;
     height: 237px;
     border-top: 1px solid #128aa7;
     border-bottom: 1px solid #128aa7;
-    position: relative;
     overflow: hidden;
 }
 
@@ -23,55 +23,55 @@ header {
     /*top: 0;
     left: 0;*/
     position: absolute;
-    transform: translate(-150px, -213px);
+    transform: translate(-151px, -213px);
 }
 
 
 ul {
-  padding: 0 0 0 58px;
-  font-family: Tahoma;
-  font-size: 14px;
-  background-color: #373737;
-  box-shadow: 0 4px 4px #000;
-  /*background: linear-gradient(to bottom #fff #000) градиент не работает???*/
+    padding: 0 0 0 58px;
+    background-color: #373737;
+    font-family: Tahoma;
+    font-size: 14px;
+    box-shadow: 0 4px 4px #000;
+    /*background: linear-gradient(to bottom #fff #000) градиент не работает???*/
 }
 
 ul
 li {
-    padding: 0px 33px 0px 10px;
     display: inline-block;
-    line-height: 32px;
+    padding: 0 33px 0 10px;
     color: #fff;
+    line-height: 32px;
     cursor: default;
 }
 
 li
-ul  {
-    position: absolute;
+ul {
     display: none;
+    position: absolute;
 }
 
 ul
 li
 a {
-     /*display: block;*/
-     text-decoration: none;
-     color: #fff;
+    /*display: block;*/
+    color: #fff;
+    text-decoration: none;
 }
 
 ul
 li
 a:hover {
-cursor: default;
+    cursor: default;
 }
 
 li:hover
-ul  {
-    margin: 1px 0 0 -10px;
-    padding: 0 0 0 0;
+ul {
     display: flex;
     flex-direction: column;
-    box-shadow: 0px 1px 4px 1px #000;
+    margin: 1px 0 0 -10px;
+    padding: 0;
+    box-shadow: 0 1px 4px 1px #000;
 }
 
 .triangle {
@@ -85,58 +85,57 @@ main {
 }
 
 .left__column {
-  width: 100%;
-  background-color: #edeef0;
-  float: left;
-  position: relative;
-  right: 50%;
+    position: relative;
+    right: 50%;
+    width: 100%;
+    float: left;
+    background-color: #edeef0;
 }
 
 .center__column {
-  width: 100%;
-
-  background-color: #fff;
-  float: left;
-  position: relative;
-  right: 25%;
+    position: relative;
+    right: 25%;
+    width: 100%;
+    float: left;
+    background-color: #fff;
 }
 
 .right__column {
-  width: 100%;
-
-  background-color: #edeef0;
-  float: left;
+    width: 100%;
+    float: left;
+    background-color: #edeef0;
 }
 
 .left__sidebar {
-  width: 25%;
-  float: left;
-  overflow: hidden;
-  position: relative;
-  left: 75%;
+    position: relative;
+    left: 75%;
+    width: 25%;
+    float: left;
+    overflow: hidden;
 }
 
 .content {
-  width: 50%;
-  /*height: 800px;*/
-  float: left;
-  overflow: hidden;
-  position: relative;
-  left: 75%;
+    position: relative;
+    left: 75%;
+    width: 50%;
+    /*height: 800px;*/
+    float: left;
+    overflow: hidden;
 }
 
 .right__sidebar {
-  width: 25%;
-  float: left;
-  overflow: hidden;
-  position: relative;
-  left: 75%;
+    position: relative;
+    left: 75%;
+    width: 25%;
+    float: left;
+    overflow: hidden;
 }
 
 h1 {
+    color: #424c43;
     font-family: Tahoma;
     font-size: 18px;
-    color: #424c43
+    text-align: center;
 }
 
 /* FOOTER */
