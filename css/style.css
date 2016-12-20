@@ -7,6 +7,7 @@ header {
       height: 415px;
       width: 1000px;
       position: relative;
+      overflow: hidden;
 }
 
 .photo__box {
@@ -37,8 +38,9 @@ ul {
 
 ul
 li {
-    padding: 8px 33px 10px 10px;
-    display: inline-block;;
+    padding: 0px 33px 0px 10px;
+    display: inline-block;
+    line-height: 32px;
     color: #fff;
     cursor: default;
 }
@@ -65,7 +67,7 @@ cursor: default;
 
 li:hover
 ul  {
-    margin: 11px 0 0 -10px;
+    margin: 1px 0 0 -10px;
     padding: 0 0 0 0;
     display: flex;
     flex-direction: column;
