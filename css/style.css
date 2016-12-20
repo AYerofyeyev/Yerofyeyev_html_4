@@ -3,6 +3,12 @@
 
 /* HEADER */
 
+header {
+      height: 415px;
+      width: 1000px;
+      position: relative;
+}
+
 .photo__box {
     width: 1000px;
     height: 237px;
@@ -71,12 +77,14 @@ ul  {
 }
 
 /* MAIN */
+
 main {
     position: relative;
 }
+
 .left__column {
   width: 100%;
-  background-color: blue;
+  background-color: #edeef0;
   float: left;
   position: relative;
   right: 50%;
@@ -84,20 +92,22 @@ main {
 
 .center__column {
   width: 100%;
-  background-color: green;
+
+  background-color: #fff;
   float: left;
   position: relative;
-  right: 200px;
+  right: 25%;
 }
 
 .right__column {
   width: 100%;
-  background-color: yellow;
+
+  background-color: #edeef0;
   float: left;
 }
 
 .left__sidebar {
-  width: 210px;
+  width: 25%;
   float: left;
   overflow: hidden;
   position: relative;
@@ -114,11 +124,17 @@ main {
 }
 
 .right__sidebar {
-  width: 200px;
+  width: 25%;
   float: left;
   overflow: hidden;
   position: relative;
   left: 75%;
+}
+
+h1 {
+    font-family: Tahoma;
+    font-size: 18px;
+    color: #424c43
 }
 
 /* FOOTER */
