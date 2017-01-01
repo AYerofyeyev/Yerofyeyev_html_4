@@ -12,12 +12,56 @@
 }
 
 /* HEADER */
+header{
+  position: relative;
+  padding-top: 50px;
+}
 
+header
+p {
+  font-family: Tahoma;
+  color: #128aa7;
+  font-size: 12px;
+}
+
+.logo {
+  margin-left: 37px;
+  padding-left: 72px;
+  padding-top: 90px;
+  background: url("../img/logo.png") no-repeat top;
+  height: 74px;
+  width: 211px;
+  text-align: left;
+  float: left;
+}
+
+.contacts {
+  text-align: left;
+  margin-top: -40px;
+  margin-left: 842px;
+}
+
+figure {
+  margin-top: 92px;
+  margin-right: 15px;
+  display: block;
+  float: right;
+  text-align: center;
+  height: 42px;
+  width: 53px;
+}
+
+figcaption {
+  font-family: Tahoma;
+  color: #128aa7;
+  font-size: 10px;
+  text-decoration: underline;
+}
 
 .photo {
+  margin-top: -58px;
   height: 450px;
   background: url("../img/photo.png") no-repeat center;
-  border-top: 1px solid #138aa7;
   border-bottom: 1px solid #138aa7;
 }
 
