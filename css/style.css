@@ -1,141 +1,161 @@
 /* GENERAL SETTINGS */
+.wrapper {
+  background: url('../img/background.png') repeat-x;
+  margin: auto;
+}
 
+.container {
+  background-color: #fff;
+  box-shadow: 0 0 4px 0 #000;
+  margin: auto;
+  width: 1000px;
+}
 
 /* HEADER */
-
 header {
-    position: relative;
-    width: 1000px;
-    height: 415px;
-    overflow: hidden;
+  background: url('../img/photo.png') no-repeat center;
+  border-bottom: 1px solid #138aa7;
+  height: 400px;
+  padding-top: 50px;
+  position: relative;
 }
 
-.photo__container {
-    position: relative;
-    width: 1000px;
-    height: 237px;
-    border-top: 1px solid #128aa7;
-    border-bottom: 1px solid #128aa7;
-    overflow: hidden;
+header
+p {
+  color: #128aa7;
+  font-family: Tahoma;
+  font-size: 12px;
 }
 
-.photo {
-    /*top: 0;
-    left: 0;*/
-    position: absolute;
-    transform: translate(-151px, -213px);
+.logo {
+  float: left;
+  height: 74px;
+  margin-left: 37px;
+  padding-left: 72px;
+  padding-top: 90px;
+  text-align: left;
+  width: 211px;
 }
 
-
-ul {
-    padding: 0 0 0 58px;
-    background-color: #373737;
-    font-family: Tahoma;
-    font-size: 14px;
-    box-shadow: 0 4px 4px #000;
-    /*background: linear-gradient(to bottom #fff #000) градиент не работает???*/
+.contacts {
+  margin-left: 842px;
+  text-align: left;
 }
 
-ul
+figure {
+  display: block;
+  float: right;
+  height: 42px;
+  margin-right: 15px;
+  margin-top: 50px;
+  text-align: center;
+  width: 53px;
+}
+
+figcaption {
+  color: #128aa7;
+  font-family: Tahoma;
+  font-size: 10px;
+  text-decoration: underline;
+}
+
+/* NAV */
+.menu {
+  background-color: #303030;
+  box-shadow: 2px 4px 5px 0 #000;
+  color: rgba(255, 255, 255, .8);
+  font-family: Tahoma;
+  font-size: 14px;
+  padding-left: 50px;
+  position: relative;
+  width: 950px;
+}
+
+.menu
 li {
-    display: inline-block;
-    padding: 0 33px 0 10px;
-    color: #fff;
-    line-height: 32px;
-    cursor: default;
+  display: inline-block;
+  line-height: 34px;
+  padding: 0 25px;
 }
 
-li
-ul {
-    display: none;
-    position: absolute;
-}
-
-ul
-li
+.menu
 a {
-    /*display: block;*/
-    color: #fff;
-    text-decoration: none;
+  color: rgba(255, 255, 255, .8);
+  font-family: Tahoma;
+  font-size: 14px;
+  text-decoration: none;
 }
 
-ul
-li
-a:hover {
-    cursor: default;
+.submenu
+ {
+  background-color: #303030;
+  border-top: 1px solid #000;
+  margin: 0 -10px;
+  position: absolute;
+  z-index: 1;
+}
+
+.submenu
+li {
+  display: none;
+  padding: 0 10px;
 }
 
 li:hover
-ul {
-    display: flex;
-    flex-direction: column;
-    margin: 1px 0 0 -10px;
-    padding: 0;
-    box-shadow: 0 1px 4px 1px #000;
-}
-
-.triangle {
-    padding-bottom: 2px;
+.submenu
+li {
+  display: block;
 }
 
 /* MAIN */
-
 main {
-    position: relative;
+  margin-top: 5px;
+  overflow: hidden;
+  position: relative;
 }
 
-.left__column {
-    position: relative;
-    right: 50%;
-    width: 100%;
-    float: left;
-    background-color: #edeef0;
+main
+.left {
+  background-color: #edeef0;
+  float: left;
+  width: 209px;
+  }
+
+.right {
+  background-color: #edeef0;
+  float: right;
+  width: 209px;
 }
 
-.center__column {
-    position: relative;
-    right: 25%;
-    width: 100%;
-    float: left;
-    background-color: #fff;
-}
+h2 {
+  color: #424c43;
+  font-family: Tahoma;
+  font-size: 18px;
+  margin-bottom: 8px;
+  text-align: center;
+  }
 
-.right__column {
-    width: 100%;
-    float: left;
-    background-color: #edeef0;
-}
-
-.left__sidebar {
-    position: relative;
-    left: 75%;
-    width: 25%;
-    float: left;
-    overflow: hidden;
+main
+p {
+  color: #424c43;
+  font-family: Tahoma;
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: 15px;
+  text-align: left;
 }
 
 .content {
-    position: relative;
-    left: 75%;
-    width: 50%;
-    /*height: 800px;*/
-    float: left;
-    overflow: hidden;
-}
-
-.right__sidebar {
-    position: relative;
-    left: 75%;
-    width: 25%;
-    float: left;
-    overflow: hidden;
-}
-
-h1 {
-    color: #424c43;
-    font-family: Tahoma;
-    font-size: 18px;
-    text-align: center;
+  margin: 0 209px;
 }
 
 /* FOOTER */
+footer
+p {
+  color: #fff;
+  font-family: Tahoma;
+  font-size: 12px;
+  margin-top: 8px;
+  opacity: .8;
+  text-align: center;
+}
